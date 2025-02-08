@@ -1,3 +1,3 @@
-From nginx
+FROM nginx
 COPY index.xml /usr/share/nginx/html
-Expose 80
+EXPOSE 80
